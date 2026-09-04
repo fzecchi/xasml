@@ -1,0 +1,809 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.72.20",
+    "pymatgen_version": "2023.11.12",
+    "pull_request": 990,
+    "database_version": "2023.11.1",
+    "build_date": "2023-11-22T19:46:13.522000",
+    "license": "BY-C"
+  },
+  "nsites": 4,
+  "elements": [
+    "Fe",
+    "O"
+  ],
+  "nelements": 2,
+  "composition": {
+    "Fe": 2.0,
+    "O": 2.0
+  },
+  "composition_reduced": {
+    "Fe": 1.0,
+    "O": 1.0
+  },
+  "formula_pretty": "FeO",
+  "formula_anonymous": "AB",
+  "chemsys": "Fe-O",
+  "volume": 38.72049868370149,
+  "density": 6.162133080514988,
+  "density_atomic": 9.680124670925373,
+  "symmetry": {
+    "crystal_system": "Cubic",
+    "symbol": "Fm-3m",
+    "number": 225,
+    "point_group": "4/mmm",
+    "symprec": 0.1,
+    "version": "2.0.2"
+  },
+  "property_name": "summary",
+  "material_id": "mp-18905",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2023-11-22T19:46:13.522000",
+  "origins": [
+    {
+      "name": "structure",
+      "task_id": "mp-1950137",
+      "last_updated": "2021-03-03T22:33:14.636000"
+    },
+    {
+      "name": "energy",
+      "task_id": "mp-1860979",
+      "last_updated": "2023-08-03T18:56:51.881000"
+    },
+    {
+      "name": "magnetism",
+      "task_id": "mp-1950137",
+      "last_updated": "2021-03-03T22:33:14.636000"
+    }
+  ],
+  "warnings": [],
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0,
+    "lattice": {
+      "matrix": [
+        [
+          0.0,
+          4.25832565,
+          -0.0
+        ],
+        [
+          2.13223976,
+          0.0,
+          2.13223976
+        ],
+        [
+          4.26447953,
+          0.0,
+          0.0
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 4.25832565,
+      "b": 3.0154423868231532,
+      "c": 4.26447953,
+      "alpha": 45.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 38.72049868370149
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Fe",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        "properties": {
+          "magmom": 3.673
+        },
+        "label": "Fe",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Fe",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.5,
+          0.0,
+          0.5
+        ],
+        "properties": {
+          "magmom": 3.673
+        },
+        "label": "Fe",
+        "xyz": [
+          2.132239765,
+          2.129162825,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.5,
+          -0.0,
+          0.0
+        ],
+        "properties": {
+          "magmom": 0.285
+        },
+        "label": "O",
+        "xyz": [
+          0.0,
+          2.129162825,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "properties": {
+          "magmom": 0.285
+        },
+        "label": "O",
+        "xyz": [
+          2.132239765,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "@version": null
+  },
+  "task_ids": [
+    "mp-2832470",
+    "mp-2758457",
+    "mp-2832540",
+    "mp-1587786",
+    "mp-18905",
+    "mp-2832379",
+    "mp-1860979",
+    "mp-2832310",
+    "mp-2049551",
+    "mp-2281513",
+    "mp-2051106",
+    "mp-1440768",
+    "mp-2832466",
+    "mp-2832244",
+    "mp-1784468",
+    "mp-1273023",
+    "mp-2191124",
+    "mp-2832230",
+    "mp-2832485",
+    "mp-2839440",
+    "mp-1274628",
+    "mp-2832574",
+    "mp-2832497",
+    "mp-2832378",
+    "mp-2855940",
+    "mp-2832350",
+    "mp-1950137",
+    "mp-2757614",
+    "mp-2761720",
+    "mp-2832268",
+    "mp-2192270",
+    "mp-2601486",
+    "mp-1523897",
+    "mp-755456",
+    "mp-1181429",
+    "mp-2832450",
+    "mp-2832601",
+    "mp-2832585",
+    "mp-2049554",
+    "mp-2280369",
+    "mp-2284215",
+    "mp-2447695",
+    "mp-2832584",
+    "mp-2832206",
+    "mp-2832552",
+    "mp-2832511",
+    "mp-1596182",
+    "mp-1674217",
+    "mp-2832502",
+    "mp-2832208",
+    "mp-2740663",
+    "mp-2832547"
+  ],
+  "uncorrected_energy_per_atom": -6.30883575,
+  "energy_per_atom": -7.78033575,
+  "formation_energy_per_atom": -1.069193283749999,
+  "energy_above_hull": 0.41017474499999995,
+  "is_stable": false,
+  "equilibrium_reaction_energy_per_atom": null,
+  "decomposes_to": [
+    {
+      "material_id": "mp-1274279",
+      "formula": "Fe4 O4",
+      "amount": 1.0
+    }
+  ],
+  "xas": [
+    {
+      "edge": "K",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "O",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "O",
+      "spectrum_type": "XAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Fe",
+      "spectrum_type": "EXAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "O",
+      "spectrum_type": "EXAFS"
+    }
+  ],
+  "grain_boundaries": null,
+  "band_gap": 0.0,
+  "cbm": null,
+  "vbm": null,
+  "efermi": 6.32130813,
+  "is_gap_direct": false,
+  "is_metal": true,
+  "es_source_calc_id": null,
+  "bandstructure": {
+    "setyawan_curtarolo": {
+      "task_id": "mp-1587786",
+      "band_gap": 0.0,
+      "cbm": null,
+      "vbm": null,
+      "efermi": 6.32130813,
+      "is_gap_direct": false,
+      "is_metal": true,
+      "magnetic_ordering": "FM",
+      "nbands": 96.0,
+      "equivalent_labels": {
+        "setyawan_curtarolo": {
+          "latimer_munro": {
+            "\\Gamma": "\u0393",
+            "K": "q_{1}",
+            "L": "a",
+            "U": "q",
+            "W": "r",
+            "X": "d"
+          },
+          "hinuma": {
+            "\\Gamma": "GAMMA",
+            "K": "K",
+            "L": "L",
+            "U": "U",
+            "W": "W",
+            "X": "X"
+          }
+        },
+        "latimer_munro": {
+          "setyawan_curtarolo": {
+            "q": "U",
+            "d": "X",
+            "a": "L",
+            "\u0393": "\\Gamma",
+            "r": "W",
+            "q_{1}": "K"
+          },
+          "hinuma": {
+            "q": "U",
+            "d": "X",
+            "a": "L",
+            "\u0393": "GAMMA",
+            "r": "W",
+            "q_{1}": "K"
+          }
+        },
+        "hinuma": {
+          "setyawan_curtarolo": {
+            "GAMMA": "\\Gamma",
+            "X": "X",
+            "L": "L",
+            "W": "W",
+            "K": "K",
+            "U": "U",
+            "W_2": "W^{*}"
+          },
+          "latimer_munro": {
+            "GAMMA": "\u0393",
+            "X": "d",
+            "L": "a",
+            "W": "r",
+            "K": "q_{1}",
+            "U": "q",
+            "W_2": "r^{*}"
+          }
+        }
+      },
+      "direct_gap": 0.0
+    },
+    "hinuma": {
+      "task_id": "mp-2192270",
+      "band_gap": 0.0,
+      "cbm": null,
+      "vbm": null,
+      "efermi": 6.13641237,
+      "is_gap_direct": false,
+      "is_metal": true,
+      "magnetic_ordering": "FM",
+      "nbands": 96.0,
+      "equivalent_labels": {
+        "setyawan_curtarolo": {
+          "latimer_munro": {
+            "\\Gamma": "\u0393",
+            "K": "q_{1}",
+            "L": "a",
+            "U": "q",
+            "W": "r",
+            "X": "d"
+          },
+          "hinuma": {
+            "\\Gamma": "GAMMA",
+            "K": "K",
+            "L": "L",
+            "U": "U",
+            "W": "W",
+            "X": "X"
+          }
+        },
+        "latimer_munro": {
+          "setyawan_curtarolo": {
+            "q": "U",
+            "d": "X",
+            "a": "L",
+            "\u0393": "\\Gamma",
+            "r": "W",
+            "q_{1}": "K"
+          },
+          "hinuma": {
+            "q": "U",
+            "d": "X",
+            "a": "L",
+            "\u0393": "GAMMA",
+            "r": "W",
+            "q_{1}": "K"
+          }
+        },
+        "hinuma": {
+          "setyawan_curtarolo": {
+            "GAMMA": "\\Gamma",
+            "X": "X",
+            "L": "L",
+            "W": "W",
+            "K": "K",
+            "U": "U",
+            "W_2": "W^{*}"
+          },
+          "latimer_munro": {
+            "GAMMA": "\u0393",
+            "X": "d",
+            "L": "a",
+            "W": "r",
+            "K": "q_{1}",
+            "U": "q",
+            "W_2": "r^{*}"
+          }
+        }
+      },
+      "direct_gap": 0.0
+    },
+    "latimer_munro": {
+      "task_id": "mp-2601486",
+      "band_gap": 0.0,
+      "cbm": null,
+      "vbm": null,
+      "efermi": 6.09874092,
+      "is_gap_direct": false,
+      "is_metal": true,
+      "magnetic_ordering": "FM",
+      "nbands": 96.0,
+      "equivalent_labels": {
+        "setyawan_curtarolo": {
+          "latimer_munro": {
+            "\\Gamma": "\u0393",
+            "K": "q_{1}",
+            "L": "a",
+            "U": "q",
+            "W": "r",
+            "X": "d"
+          },
+          "hinuma": {
+            "\\Gamma": "GAMMA",
+            "K": "K",
+            "L": "L",
+            "U": "U",
+            "W": "W",
+            "X": "X"
+          }
+        },
+        "latimer_munro": {
+          "setyawan_curtarolo": {
+            "q": "U",
+            "d": "X",
+            "a": "L",
+            "\u0393": "\\Gamma",
+            "r": "W",
+            "q_{1}": "K"
+          },
+          "hinuma": {
+            "q": "U",
+            "d": "X",
+            "a": "L",
+            "\u0393": "GAMMA",
+            "r": "W",
+            "q_{1}": "K"
+          }
+        },
+        "hinuma": {
+          "setyawan_curtarolo": {
+            "GAMMA": "\\Gamma",
+            "X": "X",
+            "L": "L",
+            "W": "W",
+            "K": "K",
+            "U": "U",
+            "W_2": "W^{*}"
+          },
+          "latimer_munro": {
+            "GAMMA": "\u0393",
+            "X": "d",
+            "L": "a",
+            "W": "r",
+            "K": "q_{1}",
+            "U": "q",
+            "W_2": "r^{*}"
+          }
+        }
+      },
+      "direct_gap": 0.0
+    }
+  },
+  "dos": {
+    "total": {
+      "1": {
+        "task_id": "mp-2281513",
+        "band_gap": 0.0,
+        "cbm": 6.0387,
+        "vbm": 6.0862,
+        "efermi": 6.08443311,
+        "spin_polarization": 0.9767169196887412
+      },
+      "-1": {
+        "task_id": "mp-2281513",
+        "band_gap": 0.0,
+        "cbm": 6.0387,
+        "vbm": 6.0862,
+        "efermi": 6.08443311,
+        "spin_polarization": 0.9767169196887412
+      }
+    },
+    "elemental": {
+      "Fe": {
+        "total": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        },
+        "s": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        },
+        "p": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        },
+        "d": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 2.3266999999999998,
+            "cbm": 6.1812,
+            "vbm": 3.8545,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        }
+      },
+      "O": {
+        "total": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        },
+        "s": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        },
+        "p": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 0.0,
+            "cbm": 6.0387,
+            "vbm": 6.0862,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        },
+        "d": {
+          "1": {
+            "task_id": "mp-2281513",
+            "band_gap": 94.9664,
+            "cbm": 39.5619,
+            "vbm": -55.4045,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          },
+          "-1": {
+            "task_id": "mp-2281513",
+            "band_gap": 94.9664,
+            "cbm": 39.5619,
+            "vbm": -55.4045,
+            "efermi": 6.08443311,
+            "spin_polarization": null
+          }
+        }
+      }
+    },
+    "orbital": {
+      "s": {
+        "1": {
+          "task_id": "mp-2281513",
+          "band_gap": 0.0,
+          "cbm": 6.0387,
+          "vbm": 6.0862,
+          "efermi": 6.08443311,
+          "spin_polarization": null
+        },
+        "-1": {
+          "task_id": "mp-2281513",
+          "band_gap": 0.0,
+          "cbm": 6.0387,
+          "vbm": 6.0862,
+          "efermi": 6.08443311,
+          "spin_polarization": null
+        }
+      },
+      "p": {
+        "1": {
+          "task_id": "mp-2281513",
+          "band_gap": 0.0,
+          "cbm": 6.0387,
+          "vbm": 6.0862,
+          "efermi": 6.08443311,
+          "spin_polarization": null
+        },
+        "-1": {
+          "task_id": "mp-2281513",
+          "band_gap": 0.0,
+          "cbm": 6.0387,
+          "vbm": 6.0862,
+          "efermi": 6.08443311,
+          "spin_polarization": null
+        }
+      },
+      "d": {
+        "1": {
+          "task_id": "mp-2281513",
+          "band_gap": 2.3266999999999998,
+          "cbm": 6.1812,
+          "vbm": 3.8545,
+          "efermi": 6.08443311,
+          "spin_polarization": null
+        },
+        "-1": {
+          "task_id": "mp-2281513",
+          "band_gap": 0.0,
+          "cbm": 6.0387,
+          "vbm": 6.0862,
+          "efermi": 6.08443311,
+          "spin_polarization": null
+        }
+      }
+    },
+    "magnetic_ordering": "FM"
+  },
+  "dos_energy_up": null,
+  "dos_energy_down": null,
+  "is_magnetic": true,
+  "ordering": "FM",
+  "total_magnetization": 8.000114,
+  "total_magnetization_normalized_vol": 0.20661185346167726,
+  "total_magnetization_normalized_formula_units": 4.000057,
+  "num_magnetic_sites": 2,
+  "num_unique_magnetic_sites": 2,
+  "types_of_magnetic_species": [
+    "Fe",
+    "O"
+  ],
+  "bulk_modulus": null,
+  "shear_modulus": null,
+  "universal_anisotropy": null,
+  "homogeneous_poisson": null,
+  "e_total": null,
+  "e_ionic": null,
+  "e_electronic": null,
+  "n": null,
+  "e_ij_max": null,
+  "weighted_surface_energy_EV_PER_ANG2": null,
+  "weighted_surface_energy": null,
+  "weighted_work_function": null,
+  "surface_anisotropy": null,
+  "shape_factor": null,
+  "has_reconstructed": null,
+  "possible_species": [
+    "Fe2+",
+    "O2-"
+  ],
+  "has_props": {
+    "materials": true,
+    "thermo": true,
+    "xas": true,
+    "grain_boundaries": false,
+    "chemenv": true,
+    "electronic_structure": true,
+    "absorption": false,
+    "bandstructure": true,
+    "dos": true,
+    "magnetism": true,
+    "elasticity": false,
+    "dielectric": false,
+    "piezoelectric": false,
+    "surface_properties": false,
+    "oxi_states": true,
+    "provenance": true,
+    "charge_density": true,
+    "eos": false,
+    "phonon": false,
+    "insertion_electrodes": false,
+    "substrates": true
+  },
+  "theoretical": false,
+  "database_IDs": {
+    "icsd": [
+      "icsd-76639",
+      "icsd-633029",
+      "icsd-180973",
+      "icsd-31081",
+      "icsd-82233",
+      "icsd-180972",
+      "icsd-633038",
+      "icsd-53519",
+      "icsd-633036",
+      "icsd-633031",
+      "icsd-180974",
+      "icsd-27856",
+      "icsd-60683",
+      "icsd-82236"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+data_info:
+  identifier:
+    pid: JXAFS-1506270001
+  date:
+    create_time: '2015-06-27 17:02:00'
+  access_rights: open
+  contact_name:
+    affiliation:
+      organization: Hokkaido University
+    name: Institute for Catalysis
+    role: organization
+  data_depositor:
+    affiliation:
+      organization: Hokkaido University
+    name: Kiyotaka Asakura
+  facility: PF
+  class_name: None
+facility:
+  ring:
+    energy: '2.5'
+    energy_unit: GeV
+    start_current: '117'
+    start_current_unit: mA
+sample:
+- chemical_formula: N(C2H5)4_FeCl4
+  lot_number: None
+  model_number: None
+  name: Tetraethylammonium tetrachloroferrate(III)
+  supplier: None
+  CAS_number: 14240-75-6
+  additional_metadata: Powder
+measurement:
+  date:
+    end_time:
+    start_time: '1983-12-01 00:00:00'
+  method:
+    absorption_edge: Fe K-edge
+    category: spectroscopy
+    detection: Transmission
+    sub_category: XAFS
+  atmosphere:
+    sample:
+      start_temperature: RT
+      start_temperature_unit:
+      end_temperature:
+      end_temperature_unit:
+instrument:
+  monochrometer:
+    net_plane: Si(311)
+  additional_metadata: NONE
+  xafs:
+    I0:
+      element:
+      - type: Ion Chamber
+        gas: N2 100%
+    I1:
+      element:
+      - type: Ion Chamber
+        gas: N2 100%
+      element_number:
+local:
+  xafs_filename_list:
+    xafs_processed:
+    - K_NC2H54FeCl4_Si311_19831201.ex3
+    - K_NC2H54FeCl4_Si311_19831201.txt
+    xafs_reference:
+    - K_FeFoil_Si311_19831201_ref.ex3
+    - K_FeFoil_Si311_19831201_ref.txt
+  xafs_processed_data_format:
+  - extension: ex3
+    format: Rex2000
+    columns:
+    - name: photon energy
+      unit: eV
+    - name: absorption coefficient mu*t
+  - extension: txt
+    format: Athena
+    columns:
+    - name: photon energy
+      unit: eV
+    - name: absorption coefficient mu*t
+  xafs_reference_data_format:
+  - extension: ex3
+    format: Rex2000
+    columns:
+    - name: photon energy
+      unit: eV
+    - name: absorption coefficient mu*t
+  - extension: txt
+    format: Athena
+    columns:
+    - name: photon energy
+      unit: eV
+    - name: absorption coefficient mu*t

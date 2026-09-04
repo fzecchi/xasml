@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xasml"
+description = "X-ray absorption spectra interpretation with machine learning"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dynamic = ["version"]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "h5py",
+    "silx",
+    "ipympl",
+    "mendeleev",
+    "scikit-learn",
+    "imbalanced-learn",
+    "ipykernel",
+    "shap",
+    "jupyterlab",
+    "pymatgen",
+    "monty",
+]
+
+[project.optional-dependencies]
+data = ["pymatgen", "mp-api", "tqdm", "xraylarch[larix]", "xraylib"]
+nn = ["torch", "keras"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.dynamic]
+version = { attr = "xasml.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint.isort]

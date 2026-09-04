@@ -1,0 +1,17 @@
+axes.prop_cycle: cycler("color", ["3F90DA", "FFA90E", "BD1F01", "94A4A2", "832DB6", "A96B59", "E76300", "B9AC70", "717581", "92DADD"])
+axes.unicode_minus: True
+figure.figsize: 6.47, 4
+font.family: sans-serif
+font.sans-serif: Helvetica,sans-serif
+font.size: 12
+xtick.labelsize: 12
+ytick.labelsize: 12
+grid.alpha: 0.5
+legend.fancybox: False
+mathtext.bf: Helvetica:bold
+mathtext.cal: Helvetica:italic
+mathtext.default: sf
+mathtext.fallback: cm
+mathtext.fontset: custom
+mathtext.it: Helvetica:italic
+mathtext.sf: Helvetica

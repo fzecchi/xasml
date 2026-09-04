@@ -1,0 +1,134 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-03 13:19:43 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293658 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/93/9009381.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009381
+loop_
+_publ_author_name
+'Ferraris, G.'
+'Ivaldi, G.'
+'Goffe, B.'
+_publ_section_title
+;
+ Structural study of a magnesian ferrocarpholite: Are carpholites monoclinic?
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              337
+_journal_page_last               347
+_journal_volume                  1992
+_journal_year                    1992
+_chemical_compound_source        'Mascate nappes, Ruwi, Oman'
+_chemical_formula_sum            'Al2 Fe0.76 H4 Mg0.24 O10 Si2'
+_chemical_name_mineral           Ferrocarpholite
+_space_group_IT_number           68
+_symmetry_space_group_name_Hall  '-C 2a 2ac'
+_symmetry_space_group_name_H-M   'C c c a :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   13.797
+_cell_length_b                   20.20
+_cell_length_c                   5.116
+_cell_volume                     1425.826
+_database_code_amcsd             0014864
+_exptl_crystal_density_diffrn    3.004
+_cod_original_sg_symbol_H-M      'C c c a'
+_cod_original_formula_sum        '(Fe.76 Mg.24) Al2 Si2 O10 H4'
+_cod_database_code               9009381
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,1/2+y,1/2+z
+1/2-x,+y,1/2+z
+x,1/2-y,1/2-z
+1/2+x,-y,1/2-z
+x,1/2+y,-z
+1/2+x,+y,-z
+-x,1/2-y,z
+1/2-x,-y,z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe 0.00590 0.00570 0.00660 0.00000 0.00100 0.00000
+Mg 0.00590 0.00570 0.00660 0.00000 0.00100 0.00000
+Al1 0.00470 0.00430 0.00470 0.00000 0.00000 0.00090
+Al2 0.00570 0.00510 0.00460 0.00000 -0.00040 0.00000
+Si 0.00430 0.00430 0.00420 0.00060 -0.00010 0.00060
+O1 0.00750 0.00630 0.00550 0.00100 -0.00030 0.00100
+O2 0.00670 0.00750 0.00690 0.00020 -0.00100 0.00110
+O3 0.00880 0.00690 0.00670 0.00040 -0.00170 0.00020
+O-h1 0.00970 0.01020 0.00990 0.00180 0.00010 -0.00020
+O-h2 0.00550 0.00800 0.00680 0.00080 0.00150 -0.00020
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe 0.00000 0.87434 0.75000 0.76000 0.00608 Fe 0
+Mg 0.00000 0.87434 0.75000 0.24000 0.00608 Mg 0
+Al1 0.19103 0.75000 0.75000 1.00000 0.00456 Al 0
+Al2 0.00000 0.96122 0.25000 1.00000 0.00507 Al 0
+Si 0.19373 0.87979 0.41767 1.00000 0.00431 Si 0
+O1 0.20558 0.79992 0.43190 1.00000 0.00646 O 0
+O2 0.08135 0.89915 0.40390 1.00000 0.00697 O 0
+O3 0.24702 0.91263 0.67400 1.00000 0.00747 O 0
+O-h1 0.10016 0.80880 0.88240 1.00000 0.00988 O 0
+O-h2 0.06806 0.96633 0.92810 1.00000 0.00684 O 0
+H1 -0.09200 0.79300 0.47100 1.00000 0.03420 H 0
+H2 0.11800 0.96700 0.89700 1.00000 0.02153 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:42:48+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:21:18+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'Oh1' -> 'O-h1'
+'Oh2' -> 'O-h2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014864

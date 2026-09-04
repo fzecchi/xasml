@@ -1,0 +1,18 @@
+# Green's function formalism, energy range -10 to 70 with uniform 0.1 eV spacing.
+job01: { cluster: cscs, method: green, ncpus: 6, scf: True, radius: 5 }
+job02: { cluster: cscs, method: green, ncpus: 6, scf: True, radius: 4 }
+job03: { cluster: esrf, method: green, ncpus: 6, scf: True, radius: 6 }
+# Finite difference method (FDM), energy range -10 to 70 with uniform 0.1 eV spacing.
+job08: { cluster: esrf, method: fdm, ncpus: 4, scf: True, radius: 4 }
+job09: { cluster: esrf, method: fdm, ncpus: 4, scf: True, radius: 5 }
+job10: { cluster: esrf, method: fdm, ncpus: 4, scf: True, radius: 6 }
+# Finite diference method (FDM), energy range -30 to 70 with uniform 0.1 eV spacing.
+job11: { cluster: esrf, method: fdm, ncpus: 10, scf: True, radius: 6 }
+job12: { cluster: esrf, method: fdm, ncpus: 10, scf: True, radius: 5 }
+job13: { cluster: esrf, method: fdm, ncpus: 10, scf: True, radius: 4 }
+# Finite diference method (FDM), energy range -30 to 70 with uniform 0.1 eV spacing, no SCF.
+job14: { cluster: esrf, method: fdm, ncpus: 10, scf: False, radius: 5 }
+# New run using the updated Materials Project database August 2024.
+job15: { cluster: esrf, method: fdm, ncpus: 10, scf: True, radius: 5, version: 2023.04.27 }
+job16: { cluster: esrf, method: fdm, ncpus: 10, scf: True, radius: 6, version: 2023.04.27 }
+job17: { cluster: esrf, method: fdm, ncpus: 10, scf: True, radius: 7, version: 2023.04.27 }

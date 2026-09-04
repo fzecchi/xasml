@@ -1,0 +1,1346 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fe K edge XAS HERFD of synthetic iron(II) oxide FeO at ambient conditions | FAME | SSHADE</title>
+    <meta name="description" content="Solid Spectroscopy Hosting Architecture of Databases and Expertise">
+    <meta name="author" content="SSHADE Team">
+
+    
+        <meta name="google-site-verification" content="pvDjGSmc3J8l1_CDz93HOsIwuQ4cdEDtfOcq6ie16Zg" />
+    
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://www.sshade.eu/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Theme CSS -->
+    <link href="https://www.sshade.eu/static/bootswatch/simplex/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Select CSS -->
+    <link href="https://www.sshade.eu/static/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+
+    <!-- Bootstrap DatePicker CSS -->
+    <link href="https://www.sshade.eu/static/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+    <!-- Bootstrap LightBox -->
+    <link href="https://www.sshade.eu/static/ekko-lightbox/ekko-lightbox.css" rel="stylesheet">
+
+    <!-- JQuery DataTables CSS -->
+    <link href="https://www.sshade.eu/static/datatables/datatables.min.css" rel="stylesheet" type="text/css" >
+
+    <!-- Font Awesome Icons -->
+    <link href="https://www.sshade.eu/static/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Flag-Icons -->
+    <link href="https://www.sshade.eu/static/flag-icon-css/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
+    <!-- SSHADE Custom CSS -->
+    <link href="https://www.sshade.eu/static/sshade.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.sshade.eu/static/img/sshade.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.sshade.eu/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.sshade.eu/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.sshade.eu/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.sshade.eu/static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://www.sshade.eu/static/favicon/safari-pinned-tab.svg" color="#d9230f">
+    <meta name="msapplication-TileColor" content="#d9230f">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Piwik -->
+    
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u="//www.sshade.eu/m_stats/";
+            _paq.push(['setTrackerUrl', u + 'sshade.php']);
+            _paq.push(['setSiteId', '1']);
+
+            // Secondary tracker, cf. https://developer.matomo.org/guides/tracking-javascript-guide#multiple-piwik-trackers
+            // var secondaryTrackerUrl = '//other-host/m_stats/sshade.php';
+            // var secondaryWebsiteId = '1';
+            // _paq.push(['addTracker', secondaryTrackerUrl, secondaryWebsiteId]);
+
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.src = u + 'sshade.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//www.sshade.eu/m_stats/sshade.php?idsite=1&amp;rec=1" style="border:0;" alt=""/></p>
+    </noscript>
+    <!-- End Matomo Code -->
+
+
+</head>
+
+<body>
+    
+    <a href="/trap/do-not-enter" rel="nofollow" aria-hidden="true"
+       tabindex="-1" style="display:none">.</a>
+    <header class="sticky-top">
+        
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+
+    <a class="navbar-brand" href="https://www.sshade.eu/">
+        <img src="https://www.sshade.eu/static/img/sshade.png" height="40px" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topbar" aria-controls="topbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="topbar">
+
+        
+        <span class="mr-auto my-2 my-lg-0">
+            
+                
+    <form id="panel_search_form" class="form-inline" method="post" action="https://www.sshade.eu/search">
+        <div class="input-group custom-search-form">
+            <div class="input-group-prepend">
+                <select class="custom-select" id="query_type" name="query_type"><option selected value="spectrum">Spectrum</option><option value="publication">Publication</option><option value="band">Band</option><option value="bandlist">Band list</option></select>
+            </div>
+            <input class="form-control" id="query_string" name="query_string" placeholder="Write your keywords here or leave it empty to get all the data..." type="text" value="">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary" type="submit" form="panel_search_form">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+            
+        </span>
+
+
+        <ul class="navbar-nav mt-2 mt-lg-0">
+
+            
+            
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="menuDoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-book fa-fw fa-lg"></i><span class="d-none d-lg-inline"> Help</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="menuDoc">
+                    <a class="dropdown-item" href="https://wiki.sshade.eu/" target="_blank"><i class="fa fa-book fa-fw"></i> Wiki</a>
+                    <a class="dropdown-item" href="https://wiki.sshade.eu/sshade/interface/user_tutorial" target="_blank"><i class="fa fa-book fa-fw"></i> User guide</a>
+                    
+                    <a class="dropdown-item" href="mailto:contact@sshade.eu"><i class="fa fa-envelope fa-fw"></i> Contact</a>
+                    <a class="dropdown-item" href="https://www.sshade.eu/credits"><i class="fa fa-info-circle fa-fw"></i> Credits and legal notices</a>
+                </div>
+            </li>
+
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.sshade.eu/user/login" id="login_nav">
+                    <i class="fa fa-sign-in-alt fa-fw fa-lg"></i> Log in / Register
+                </a>
+            </li>
+
+
+            
+            
+        </ul>
+    </div>
+</nav>
+        <div aria-live="polite" aria-atomic="true" style="position: relative;">
+            <div class="toast fade hide" id="toast-add" data-delay="4000" style="position: absolute; top: 5px; right: 5px; z-index: 11;">
+                <div class="toast-header">
+                    <strong class="mr-auto">Comparator</strong>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body" id="toast-msg">
+                </div>
+            </div>
+        </div>
+
+        <div aria-live="polite" aria-atomic="true" style="position: relative;">
+            <div class="toast fade hide" id="toast-update" data-delay="10000" style="position: absolute; top: 5px; right: 5px; z-index: 10;">
+                <div class="toast-header">
+                    <strong class="mr-auto">Comparator</strong>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body" id="toast-update-msg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <main id="sshade-main-container" role="main" class="container-fluid sshade-layout-with-sidebar sidebar-collapse show">
+        <div id="sshade-sidebar-wrapper" class="sidebar-collapse show">
+            
+    <div id="sshade-sidebar-header">
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <button type="button" class="nav-link" data-toggle="collapse" data-target=".sidebar-collapse" aria-expanded="true" role="tab">
+                <i id="sshade-sidebar-toggle-hide" class="far fa-caret-square-left sidebar-collapse-toggle"></i>
+                <i id="sshade-sidebar-toggle-show" class="far fa-caret-square-right sidebar-collapse-toggle"></i>
+            </button>
+        </li>
+        
+    
+        <li class="nav-item sidebar-collapse-tab">
+            <a class="nav-link active" id="sidebar-tab-experiment" data-toggle="tab" href="#sidebar-experiment" role="tab" aria-controls="sidebar-experiment" aria-selected="True">
+                <i class="fa fa-flask"></i><span class="d-none d-xl-inline"> Experiment</span>
+            </a>
+        </li>
+        <li class="nav-item sidebar-collapse-tab">
+            <a class="nav-link" id="sidebar-tab-sample" data-toggle="tab" href="#sidebar-sample" role="tab" aria-controls="sidebar-sample" aria-selected="False">
+                <i class="fa fa-atom"></i><span class="d-none d-xl-inline"> Sample</span>
+            </a>
+        </li>
+    
+
+    </ul>
+</div>
+<div id="sshade-sidebar-body" class="tab-content">
+    
+    
+        <div class="tab-pane fade show active" id="sidebar-experiment" role="tabpanel" aria-labelledby="sidebar-tab-experiment">
+            
+    <div class="card">
+        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004">
+            <div class="card-header" data-toggle="tooltip" title="">
+                <span class="badge badge-secondary" data-toggle="tooltip" data-html="true" title="<i>Variables:</i> spectral range">
+                    E<span class="d-none d-md-inline">xperiment</span>
+                </span>
+                Fe K edge XAS HERFD (Kbeta1,3) and XES of synthetic iron(II) oxide FeO at ambient conditions
+            </div>
+        </a>
+        <div class="card-body">
+            
+                <div class="list-group list-group-flush">
+                    
+                        
+                            
+                            <a href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004H" class="list-group-item list-group-item-action active">
+                                <span class="badge badge-dark">
+                                    S<span class="d-none d-md-inline">pectrum</span>
+                                </span>
+                                
+                                Fe K edge XAS HERFD of synthetic iron(II) oxide FeO at ambient conditions
+                            </a>
+                        
+                    
+                        
+                            
+                            <a href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004EB1" class="list-group-item list-group-item-action">
+                                <span class="badge badge-secondary">
+                                    S<span class="d-none d-md-inline">pectrum</span>
+                                </span>
+                                
+                                K-beta1,3 XES of synthetic iron(II) oxide FeO at ambient conditions
+                            </a>
+                        
+                    
+                        
+                            
+                            <a href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004EB2" class="list-group-item list-group-item-action">
+                                <span class="badge badge-secondary">
+                                    S<span class="d-none d-md-inline">pectrum</span>
+                                </span>
+                                
+                                K-beta2,5 XES of synthetic iron(II) oxide FeO at ambient conditions
+                            </a>
+                        
+                    
+                </div>
+            
+        </div>
+    </div>
+
+        </div>
+        
+            <div class="tab-pane fade" id="sidebar-sample" role="tabpanel" aria-labelledby="sidebar-tab-sample">
+                
+    <div class="card">
+        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H">
+            <div class="card-header">
+                <span class="badge badge-secondary">
+                    S<span class="d-none d-md-inline">ample</span>
+                </span>
+                Pellet of synthetic iron(II) oxide FeO mixed with cellulose
+            </div>
+        </a>
+        
+            
+                <div class="card-body">
+                    
+                        
+        <div class="card">
+            <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H/LAYER_1_SOC_20181115_004H">
+                <div class="card-header">
+                    <span class="badge badge-secondary">
+                        L<span class="d-none d-md-inline">ayer</span>
+                    </span>
+                    Layer #1
+                </div>
+            </a>
+            
+                
+                    <div class="card-body collapse show" id="sidebar-layer-LAYER_1_SOC_20181115_004H">
+                        
+                            
+    <div class="card">
+        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H/LAYER_1_SOC_20181115_004H/MATERIAL_SOC_20181115_004H">
+            <div class="card-header">
+                <span class="badge badge-secondary">
+                    M<span class="d-none d-md-inline">aterial</span>
+                </span>
+                FeO
+            </div>
+        </a>
+
+        
+            <div class="card-body collapse show" id="sidebar-material-MATERIAL_SOC_20181115_004H">
+                <div class="list-group list-group-flush">
+                    
+                        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H/LAYER_1_SOC_20181115_004H/MATERIAL_SOC_20181115_004H/CONST_SOC_20181115_004H" class="list-group-item list-group-item-action">
+                            <span class="badge badge-secondary">
+                                C<span class="d-none d-md-inline">onstituent</span>
+                            </span>
+                            FeO
+                        </a>
+                    
+                </div>
+            </div>
+        
+    </div>
+ 
+                        
+                        
+                            
+    <div class="card">
+        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H/LAYER_1_SOC_20181115_004H/MATMIN_Cellulose_IK_20181119_001">
+            <div class="card-header">
+                <span class="badge badge-secondary">
+                    Ma<span class="d-none d-md-inline">tter</span>
+                </span>
+                Cellulose powder for preparation of pellets
+            </div>
+        </a>
+
+        
+            <div class="card-body collapse show" id="sidebar-matter-MATMIN_Cellulose_IK_20181119_001">
+                
+                    
+    <div class="card">
+        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H/LAYER_1_SOC_20181115_004H/MATMIN_Cellulose_IK_20181119_001/MATERIAL_IK_20181119_001">
+            <div class="card-header">
+                <span class="badge badge-secondary">
+                    M<span class="d-none d-md-inline">aterial</span>
+                </span>
+                Cellulose
+            </div>
+        </a>
+
+        
+            <div class="card-body collapse show" id="sidebar-material-MATERIAL_IK_20181119_001">
+                <div class="list-group list-group-flush">
+                    
+                        <a href="https://www.sshade.eu/data/EXPERIMENT_SOC_20181115_004/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H/LAYER_1_SOC_20181115_004H/MATMIN_Cellulose_IK_20181119_001/MATERIAL_IK_20181119_001/CONST_IK_20181119_001" class="list-group-item list-group-item-action">
+                            <span class="badge badge-secondary">
+                                C<span class="d-none d-md-inline">onstituent</span>
+                            </span>
+                            Cellulose
+                        </a>
+                    
+                </div>
+            </div>
+        
+    </div>
+ 
+                
+                
+            </div>
+        
+    </div>
+
+                        
+                    </div>
+                
+            
+        </div>
+
+                    
+                </div>
+            
+        
+    </div>
+
+            </div>
+        
+    
+
+
+</div>
+
+        </div>
+        <div id="sshade-content-wrapper">
+    
+    
+    
+    <script language="JavaScript">
+    var user_just_logged = false;
+
+    function update_export_modal(logged_user, export_type, export_uid, export_url, export_mode, export_title) {
+        // -Init-
+        console.log("Called update_export_modal"); // DBG
+
+        // Handle 'None' values
+        logged_user         = logged_user       !== 'None' ? logged_user        : undefined;
+        logged_user         = logged_user       !== ''     ? logged_user        : undefined;
+        export_type         = export_type       !== 'None' ? export_type        : undefined;
+        export_uid          = export_uid        !== 'None' ? export_uid         : undefined;
+        export_url          = export_url        !== 'None' ? export_url         : undefined;
+        export_mode         = export_mode       !== 'None' ? export_mode        : undefined;
+        export_title        = export_title      !== 'None' ? export_title       : undefined;
+
+		// -Update modal content-
+        // Title
+		if (export_title) {
+            $('#export_modal .modal-title').text(export_title);
+		} else if (export_type) {
+    	    $('#export_modal .modal-title').text('Export '+export_type);
+		} else {
+    	    $('#export_modal .modal-title').text('Export');
+        }
+
+		// Button type
+    	if (export_mode !== undefined && export_mode !== 'None') {
+            if (export_mode === "relaunch") {
+                $('#export_modal_relaunch_button').show();
+                $('#export_modal_button').hide();
+            } else {
+                $('#export_modal_relaunch_button').hide();
+                $('#export_modal_button').show();
+            }
+		}
+
+        // Update content
+        if (user_just_logged) {
+            $('#export_modal .modal-body p:nth-child(1)').text('Use your previously logged user to export this '+export_type+'.');
+            $('#export_modal #button-login').attr('href_export', export_url);
+
+            $('#export_modal #button-login').removeClass('disabled');
+            $('#export_modal #button-login').html('Export');
+            $('#export_modal #button-dashboard').hide();
+            $('#export_modal #button-cancel').text('Cancel');
+            $('#export_modal #button-login').show();
+		} else if (logged_user === undefined) {
+			$('#export_modal .modal-body p:nth-child(1)').text('You must be logged to export this '+export_type+'.');
+            $('#export_modal #button-login').attr('href_export', export_url);
+		}
+    }
+
+    function update_export_custom_modal(logged_user, export_type, export_uid, export_subtype, export_provider, export_url, export_title) {
+    	// -Init-
+        console.log("Called update_export_custom_modal"); // DBG
+
+        // Handle 'None' values
+        logged_user         = logged_user       !== 'None' ? logged_user        : undefined;
+        logged_user         = logged_user       !== ''     ? logged_user        : undefined;
+        export_type         = export_type       !== 'None' ? export_type        : undefined;
+        export_uid          = export_uid        !== 'None' ? export_uid         : undefined;
+        export_subtype      = export_subtype    !== 'None' ? export_subtype     : undefined;
+        export_provider     = export_provider   !== 'None' ? export_provider    : undefined;
+        export_url          = export_url        !== 'None' ? export_url         : undefined;
+        export_title        = export_title      !== 'None' ? export_title       : undefined;
+
+		// -Update modal content-
+        // Title
+		if (export_title) {
+            $('#export_custom_modal .modal-title').text(export_title);
+		} else if (export_type) {
+    	    $('#export_custom_modal .modal-title').text('Export '+export_type);
+		} else {
+    	    $('#export_custom_modal .modal-title').text('Export');
+        }
+
+        if (logged_user === undefined) {
+        	// Login message
+            $('#export_custom_modal #form-custom').html('<p>This feature is available only when logged.</p>');
+		} else {
+            // URL
+            $('#export_custom_modal #button-export').attr('href', export_url);
+
+            // Content
+            $('#export_custom_modal #button-cancel').text('Cancel');
+
+            $('#export_custom_modal #form-custom').html('<i class="fa fa-circle-notch fa-spin"></i> Loading customization form...');
+            $('#export_custom_modal #form-custom').show();
+
+            $('#export_custom_modal #custom-message').hide();
+
+            $('#export_custom_modal #button-export').show();
+            $('#export_custom_modal #button-dashboard').hide();
+
+            $.ajax({
+                url: 'https://www.sshade.eu/user/settings',
+                data: {'only': 'export,export_'+export_type},
+                success: function (data, textStatus, jqXHR) {
+                    $('#export_custom_modal #form-custom').show();
+                    $('#export_custom_modal #form-custom').html($('#export-settings', data));
+
+                    // Provider fields
+                    if (export_provider !== undefined && (export_provider === 'True' || export_provider === true)) {
+                        $('#export_custom_modal #bandlist_include_original_file').parent().parent().show();
+                        $('#export_custom_modal #bandlist_include_original_file').prop("disabled", false);
+                    } else {
+                        $('#export_custom_modal #bandlist_include_original_file').parent().parent().hide();
+                        $('#export_custom_modal #bandlist_include_original_file').prop("disabled", true).val("");
+                    }
+
+                    // Subtype form customization
+                    if (export_subtype !== undefined) {
+                        if (export_subtype === 'complex' || export_subtype === 'both') {
+                            $('#export_custom_modal #fieldset-value-complex').show();
+                        } else {
+                            $('#export_custom_modal #fieldset-value-complex').hide();
+                        }
+
+                        if (export_subtype === 'standard' || export_subtype === 'both') {
+                            $('#export_custom_modal #fieldset-value-standard').show();
+                        } else {
+                            $('#export_custom_modal #fieldset-value-standard').hide();
+                        }
+
+                    } else {
+                        // spectral type undefined
+                        $('#export_custom_modal #fieldset-value-standard').show();
+                        $('#export_custom_modal #fieldset-value-complex').show();
+                    }
+
+                    // Spectral range type update
+                    spectral_range_type_update(true);
+
+                    $('#form-custom #convert_unit').change(function (e) {
+                    	var val = $(this).val();
+                        $('#form-custom #spectral_range_unit').val(val ? val : 'cm_1');
+                    });
+
+                    $('#form-custom #spectral_range_type').change(function (e) {
+                        spectral_range_type_update();
+                    });
+
+                    // Spectrum single/complex data type update
+                   spectrum_data_type_update();
+
+                    $('#spectrum_data_type').change(function (e) {
+                        spectrum_data_type_update();
+                    });
+
+					// Bandlist data type update
+                   bandlist_data_type_update();
+
+                    $('#bandlist_data_type').change(function (e) {
+                        bandlist_data_type_update();
+                    });
+
+					// Spectrum data file format update
+					spectrum_data_file_format_update();
+
+					$('#spectrum_data_file_format').change(function (e) {
+						spectrum_data_file_format_update();
+					});
+
+					// Spectrum multiangle data type update
+                    spectrum_multiangle_data_type_update();
+
+                    $('#spectrum_multiangle_data_type').change(function (e) {
+                        spectrum_multiangle_data_type_update();
+                    });
+
+                    // Convert unit update
+                    // convert_unit_update();
+
+                    $('#convert_unit').change(function (e) {
+                        convert_unit_update();
+                    });
+
+                    $('#number_format').change(function (e) {
+                        convert_unit_update("spectrum");
+                    });
+
+                    $('#bandlist_number_format').change(function (e) {
+                        convert_unit_update("bandlist");
+                    });
+                }
+            });
+        }
+    }
+
+    function spectral_range_type_update(init, cancel) {
+    	var srt = $('#form-custom #spectral_range_type');
+
+        if (cancel) {
+            srt.prop('selectedIndex', srt.data('previous'));
+        }
+
+        if (init) {
+            srt.data('previous', srt.prop('selectedIndex'));
+        }
+
+        if (srt.val() === "min_max") {
+            if (!init) {
+                $('#form-custom #spectral_range_modal').modal();
+            }
+
+            $('#form-custom #spectral_range_min').prop("disabled", false);
+            $('#form-custom #spectral_range_max').prop("disabled", false);
+            $('#form-custom #spectral_range_unit').prop("disabled", false);
+        } else {
+            $('#form-custom #spectral_range_min').prop("disabled", true).val("");
+            $('#form-custom #spectral_range_max').prop("disabled", true).val("");
+            $('#form-custom #spectral_range_unit').prop("disabled", true);
+        }
+    }
+
+    function spectrum_data_type_update() {
+        var sdt = $('#spectrum_data_type');
+        var sdf = $('#spectrum_data_file_format');
+        var msg = $('.message-block.spectrum_data_type').first();
+
+        if (!sdt || !msg) {
+            return;
+        }
+
+        if (sdt.val() === 'data_columns_header') {
+            // msg.html("The data file will contain a short header.");
+
+            /* sdf.data('previous', sdf.prop('selectedIndex'));
+            sdf.addClass("disabled");
+            sdf.attr("disabled","");
+            sdf.val("tsv"); */
+            spectrum_data_file_format_update();
+        } else if (sdf.hasClass("disabled")) {
+            // msg.html("");
+
+            /* sdf.removeClass("disabled");
+            sdf.removeAttr("disabled");
+            sdf.prop('selectedIndex', sdf.data('previous')); */
+            spectrum_data_file_format_update();
+        } else {
+            // msg.html("");
+        }
+    }
+    
+    function bandlist_data_type_update() {
+        var bdt = $('#bandlist_data_type');
+        var bdf = $('#bandlist_data_file_format');
+        var msg = $('.message-block.bandlist_data_type').first();
+
+        if (!bdt || !msg) {
+            return;
+        }
+
+        if (bdt.val() === 'data_columns_mini_header' || bdt.val() === 'data_columns_header') {
+            // msg.html("The data file will contain a short header.");
+
+            /*bdf.data('previous', bdf.prop('selectedIndex'));
+            bdf.addClass("disabled");
+            bdf.attr("disabled","");
+            bdf.val("tsv");*/
+        } else if (bdf.hasClass("disabled")) {
+            // msg.html("");
+
+            /*bdf.removeClass("disabled");
+            bdf.removeAttr("disabled");
+            bdf.prop('selectedIndex', bdf.data('previous'));*/
+        } else {
+            // msg.html("");
+        }
+    }
+
+    function spectrum_data_file_format_update() {
+        var sdf = $('#spectrum_data_file_format');
+        var msg = $('.message-block.spectrum_data_file_format').first();
+
+        if (!sdf || !msg) {
+            return;
+        }
+
+        if (sdf.val() === 'vot') {
+            msg.html("In VoTable all numeric formats are auto-defined");
+        } else {
+            msg.html("");
+        }
+    }
+
+    // Spectrum multiangle data type update
+    function spectrum_multiangle_data_type_update() {
+        var smdt = $('#spectrum_multiangle_data_type');
+        var msg = $('.message-block.spectrum_multiangle_data_type').first();
+
+        if (!smdt || !msg) {
+            return;
+        }
+
+        if (smdt.val() === 'spectro_photometric') {
+            msg.html("A line per wavelength, 2 columns (intensity, error) per geometry (i,e,a)");
+        } else if (smdt.val() === 'poly_photometric') {
+            msg.html("A line per couple (wavelength, geometry i,e,a)");
+        } else {
+            msg.html("");
+        }
+    }
+
+    // unit conversion update
+    function convert_unit_update(only="") {
+        var cu = $('#convert_unit');
+        if (!cu) {
+            return;
+        }
+
+        var cu_label = undefined;
+        if (cu.length && cu[0].selectedOptions.length) {
+            cu_label = cu[0].selectedOptions[0].label;
+        }
+        if (cu_label === undefined) {
+            return;
+        }
+
+        var nf = $('#number_format');
+        var nd = $('#number_decimals');
+        var bnf = $('#bandlist_number_format');
+        var bnd = $('#bandlist_number_decimals');
+
+        // Define decimals mapping
+        var spectrum_decimals = {
+            'cm-1':     6,
+            'm-1':      4,
+            'angstrom': 3,
+            'nm':       4,
+            'micron':   6,
+            'mm':       4,
+            'eV':       6,
+            'keV':      4,
+            'kHz':      0,
+            'MHz':      0,
+            'GHz':      2,
+        };
+        spectrum_decimals['-Native unit of data-'] = spectrum_decimals['cm-1'];
+
+        var bandlist_decimals = {
+            'cm-1':     2,
+            'm-1':      0,
+            'angstrom': 1,
+            'nm':       2,
+            'micron':   5,
+            'mm':       3,
+            'eV':       5,
+            'keV':      3,
+            'kHz':      0,
+            'MHz':      0,
+            'GHz':      0,
+        };
+        bandlist_decimals['-Native unit of data-'] = bandlist_decimals['cm-1'];
+
+        // Update format decimals
+        if (nd && spectrum_decimals[cu_label] !== undefined && nf.val() === 'float' && (!only || only ==='spectrum')) {
+            nd.val(spectrum_decimals[cu_label]);
+        }
+
+        if (bnd && bandlist_decimals[cu_label] !== undefined && bnf.val() === 'float' && (!only || only ==='bandlist')) {
+            bnd.val(bandlist_decimals[cu_label]);
+        }
+    }
+</script>
+
+<div class="modal text-left" tabindex="-1" role="dialog" id="export_modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Export</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>You must be logged to export this.</p>
+                <p id="login-error" class="alert alert-danger" style="display: none;"></p>
+                <form id="form-login">
+                    <div class="form-group">
+                        <label class="control-label" for="login">E-Mail / Login</label>
+                        <input class="form-control" id="login" name="login" required="" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="password">Password</label>
+                        <input class="form-control" id="password" name="password" required="" type="password" value="">
+                    </div>
+                    <input type="hidden" name="raise_error" value="True"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-primary" id="button-login"
+                   role="button"
+                   href="https://www.sshade.eu/user/login"
+                   href_export=""
+                   onclick="$.ajax({
+                           url:$(this).attr('href'),
+                           url_export:$(this).attr('href_export'),
+                           type:'POST',
+                           data:$('#export_modal #form-login').serialize(),
+                           beforeSend:function(){
+                                $('#export_modal #button-login').html('<i class=&quot;fa fa-circle-notch fa-spin&quot;></i> '+$('#export_modal #button-login').text());
+                           	    $('#export_modal #button-login').toggleClass('disabled');
+                           },
+                           success:function() {
+                           	    user_just_logged = true;
+                           	    $('#login_nav').html('<i class=&quot;fa fa-columns fa-fw fa-lg&quot;></i> Dashboard');
+                           	    $('#login_nav').attr('href', 'https://www.sshade.eu/user/dashboard');
+
+                                $('#export_modal #login-error').html('');
+                                $('#export_modal #login-error').hide();
+
+                                $.ajax({
+                                    url:this.url_export,
+                                    data:{'no_dl':true, 'export_mode': 'None'}
+                                });
+
+                                $('#export_modal .modal-body').html('<p>Your export file is in preparation. You will find it in your user dasboard.</p>');
+                                $('#export_modal #button-login').hide();
+                                $('#export_modal #button-dashboard').show();
+                                $('#export_modal #button-cancel').text('Close');
+                           }
+                           ,error:function() {
+                           	    $('#export_modal #login-error').html('Login error');
+                                $('#export_modal #login-error').show();
+
+                                $('#export_modal #button-login').html($('#export_modal #button-login').text());
+                                $('#export_modal #button-login').toggleClass('disabled');
+                           }
+                           }); return false;">Login and Export</a>
+                <a id="button-dashboard" href="https://www.sshade.eu/user/export" class="btn btn-primary" target="_blank" onclick="$('#export_modal').modal('hide')" style="display: none;">Open your dashboard</a>
+                <button id="button-cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal text-left" tabindex="-1" role="dialog" id="export_custom_modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Export</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This feature is only available to logged users.</p>
+                <p id="login-error" class="alert alert-danger" style="display: none;"></p>
+                <form id="form-login">
+                    <div class="form-group">
+                        <label class="control-label" for="login">E-Mail / Login</label>
+                        <input class="form-control" id="login" name="login" required="" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="password">Password</label>
+                        <input class="form-control" id="password" name="password" required="" type="password" value="">
+                    </div>
+                    <input type="hidden" name="raise_error" value="True"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-primary" id="button-login"
+                   role="button"
+                   href="https://www.sshade.eu/user/login"
+                   onclick="$.ajax({
+                           url:$(this).attr('href'),
+                           url_export:$(this).attr('href_export'),
+                           type:'POST',
+                           data:$('#export_custom_modal #form-login').serialize(),
+                           beforeSend:function(){
+                           	    $('#export_custom_modal #button-login').html('<i class=&quot;fa fa-circle-notch fa-spin&quot;></i> '+$('#export_custom_modal #button-login').text());
+                           	    $('#export_custom_modal #button-login').toggleClass('disabled');
+                           },
+                           success:function() {
+                           	    location.reload();
+                           }
+                           ,error:function() {
+                                $('#export_custom_modal #login-error').html('Login error');
+                                $('#export_custom_modal #login-error').show();
+
+                                $('#export_custom_modal #button-login').html($('#export_custom_modal #button-login').text());
+                                $('#export_custom_modal #button-login').toggleClass('disabled');
+                           }
+                           }); return false;">Login and Reload</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="card" id="card_SPECTRUM_SOC_20181115_004H">
+        <div class="card-header sshade-page-header">
+            Spectrum preview
+            <span class="float-right">
+                
+                
+
+                
+                
+
+                
+
+                
+                
+                <button class="btn btn-secondary btn-sm" role="button" data-container="body" data-toggle="popover" data-placement="left" data-content="SPECTRUM_SOC_20181115_004H">
+                    UID
+                </button>
+
+                
+                    <a class="btn btn-primary btn-sm" role="button" href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004H/details" title="View spectrum details" data-tooltip="tooltip">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </a>
+                
+                <a href="https://www.sshade.eu/plot/SPECTRUM_SOC_20181115_004H" class="btn btn-secondary btn-sm" role="button" title="View spectrum plot" data-tooltip="tooltip">
+                    <i class="fa fa-chart-area"></i>
+                </a>
+                
+                
+<a class="btn btn-secondary btn-sm "
+   role="button"
+   href="https://www.sshade.eu/export/SPECTRUM_SOC_20181115_004H.zip"
+   onclick="update_export_modal('', 'spectrum', 'SPECTRUM_SOC_20181115_004H', $(this).attr('href'), 'None', 'None')"
+   title="Export spectrum"
+   data-tooltip="tooltip"
+   data-toggle="modal"
+   data-target="#export_modal">
+    <i class="fa fa-download" aria-hidden="true"></i>
+</a>
+    
+    <a class="btn btn-secondary btn-sm disabled-with-tooltip"
+       role="button"
+       href=""
+       onclick="return false;"
+       title="Customize spectrum export (This feature is only available to logged users) "
+       data-tooltip="tooltip">
+        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+    </a>
+    
+    
+
+            </span>
+        </div>
+        <div class="card-body">
+
+            <a href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004H/details">
+                
+                    <img src="/plot/SPECTRUM_SOC_20181115_004H/1.eV.png">
+                
+            </a>
+
+            <dl class="dl-horizontal">
+                
+                <dt>Title</dt>
+                <dd>Fe K edge XAS HERFD of synthetic iron(II) oxide FeO at ambient conditions</dd>
+                
+
+                
+
+                <dt>Database</dt>
+                <dd>
+                    <ul>
+                        
+                            <a href="https://www.sshade.eu/data/database/DB_FAME" data-toggle="modal-data">
+                                <i class="fa fa-eye" aria-hidden="true"></i> FAME
+                            </a>
+                        
+                    </ul>
+                </dd>
+
+                
+                <dt>Experiment type</dt><dd>laboratory measurement</dd>
+                
+
+                
+                <dt>Spectrum type</dt><dd>fluorescence emission</dd>
+                
+
+                
+                <dt>Version</dt>
+                <dd>
+                    #1 (2018-11-19 16:10:54+0000 UTC)
+                    
+                </dd>
+                
+
+                
+            </dl>
+        </div>
+    </div>
+
+    
+    
+
+    
+    <div class="card">
+        <div class="card-header">
+            Instrument parameters
+            <span class="float-right">
+                
+                
+                <a class="btn btn-primary btn-sm" role="button" href="https://www.sshade.eu/data/instrument/INSTRU_XAS_CAS_Ge620_FAMEUHD" title="View instrument details" data-tooltip="tooltip">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </a>
+            </span>
+        </div>
+        <div class="card-body">
+            <dl class="dl-horizontal">
+                <dt>Instrument</dt>
+                <dd>
+                    <a href="https://www.sshade.eu/data/instrument/INSTRU_XAS_CAS_Ge620_FAMEUHD" data-toggle="modal-data">
+                        <i class="fa fa-eye" aria-hidden="true"></i> High Energy Resolution Fluorescence Detection X-ray Absorption Spectroscopy
+                    </a>
+                </dd>
+
+                
+                <dt>Spectral observation mode</dt>
+                <dd>spectrum</dd>
+                
+
+                
+                <dt>Valid spectral range(s)</dt>
+                <dd>
+                    
+                        
+                        
+
+                        7079.0 - 7351.0 $eV$
+                    
+                </dd>
+                
+
+                
+
+                
+                
+                <dt>Spatial observation mode</dt>
+                <dd>single spot</dd>
+                
+            </dl>
+        </div>
+    </div>
+    
+
+    
+    <div class="card">
+        <div class="card-header">
+            Sample preview
+            <span class="float-right">
+                
+                
+                <a class="btn btn-primary btn-sm" role="button" href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H" title="View sample details" data-tooltip="tooltip">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </a>
+            </span>
+        </div>
+        <div class="card-body">
+            <dl class="dl-horizontal">
+                
+                <dt>Name</dt>
+                <dd>
+                   <a href="https://www.sshade.eu/data/SPECTRUM_SOC_20181115_004H/SAMPLE_SOC_20181115_004H">
+                       <i class="fa fa-eye" aria-hidden="true"></i> Pellet of synthetic iron(II) oxide FeO mixed with cellulose
+                   </a>
+                </dd>
+                
+
+                
+                
+                
+                    
+                        
+                    
+
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                    
+                
+
+                
+                <dt>Origin</dt><dd>laboratory</dd>
+                
+
+                
+                <dt>Texture</dt><dd>compact poor grained</dd>
+                
+
+                
+                <dt>Thickness</dt>
+                <dd>
+                    2.0
+                    
+                        $\pm$ 0.5
+                    
+                    $mm$
+                </dd>
+                
+
+                
+                    
+                    <dt>Temperature</dt>
+                    <dd>293.0
+                        
+                            $\pm$ 2.0
+                        
+                        $K$
+                    </dd>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                
+            </dl>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <div class="card-header">References</div>
+        <div class="card-body">
+            <dl class="dl-horizontal">
+                <dt>Data reference</dt>
+                <dd>Ould-Chikh, Samy; Vollmer, Ina; Aguilar Tapia, Antonio (2018): Fe K edge XAS HERFD (Kbeta1,3) and XES of synthetic iron(II) oxide FeO at ambient conditions. SSHADE/FAME (OSUG Data Center). Dataset/Spectral Data. <a href="https://doi.org/10.26302/SSHADE/EXPERIMENT_SOC_20181115_004" target="_blank">https://doi.org/10.26302/SSHADE/EXPERIMENT_SOC_20181115_004</a></dd>
+
+                
+            </dl>
+        </div>
+    </div>
+
+
+
+    
+    <div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-labelledby="modalDataLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+        </div>
+    
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://www.sshade.eu/static/jquery/jquery-3.4.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://www.sshade.eu/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Select JavaScript -->
+    <script src="https://www.sshade.eu/static/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+    <!-- Bootstrap DatePicker JavaScript -->
+    <script src="https://www.sshade.eu/static/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- Bootstrap Confirmation JavaScript -->
+    <script src="https://www.sshade.eu/static/bootstrap-confirmation/bootstrap-confirmation.min.js"></script>
+
+    <!-- LightBox JavaScript -->
+    <script src="https://www.sshade.eu/static/ekko-lightbox/ekko-lightbox.min.js"></script>
+
+    <!-- JQuery DataTables JavaScript -->
+    <script src="https://www.sshade.eu/static/datatables/datatables.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.22/sorting/natural.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+    
+    <!-- Custom JS lib -->
+    
+    
+    <!-- Custom Javascript for this page -->
+    <script type="text/javascript">
+        // Set default DataTable options
+        $.extend(true, $.fn.dataTable.defaults, {
+            colReorder: true,
+            lengthMenu: [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+        });
+
+        let dt = $('.data-table').DataTable();
+
+        $('body').popover({
+            selector: '[data-toggle="popover"]'
+        });
+
+        $('.selectpicker').selectpicker({
+            style: 'custom-select',
+            size: 10,
+        });
+
+        $('.multiselectpicker').selectpicker({
+            style: 'custom-select',
+            size: 10,
+            actionsBox: true,
+            liveSearch:true
+        });
+
+        $('.datepicker').datepicker({
+            format: 'yyyy-mm-dd'
+        });
+
+        $('[data-toggle=confirmation]').confirmation({
+            rootSelector: '[data-toggle=confirmation]',
+            singleton: true,
+            popout: true,
+        });
+
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+          $('[data-tooltip="tooltip"]').tooltip();
+          //$('[data-table="true"]').DataTable();
+        });
+
+        // Event to toggle password fields visibility
+        if(document.getElementById('toggle-password') !== null) {
+            document.addEventListener('DOMContentLoaded', function () {
+                const passwordField = document.getElementById('password-field');
+                const toggleButton = document.getElementById('toggle-password');
+                const eyeIcon = document.getElementById('eye-icon');
+
+                toggleButton.addEventListener('click', function () {
+                    if (passwordField.type === 'password') {
+                        passwordField.type = 'text';
+                        eyeIcon.classList.remove('fa-eye');
+                        eyeIcon.classList.add('fa-eye-slash');
+                    } else {
+                        passwordField.type = 'password';
+                        eyeIcon.classList.remove('fa-eye-slash');
+                        eyeIcon.classList.add('fa-eye');
+                    }
+                });
+            });
+        }
+    </script>
+    
+    
+        
+        <script type="text/javascript">
+            $('body').on('click', '[data-toggle="modal-data"]', function(event) {
+                // Link that triggered the modal
+                var source = $(this);
+
+                // Extract info from data-* attributes
+                if (source.attr("data-url")) {
+                    var data_url = source.data('url');
+                }
+                if (source.attr("data-href")) {
+                    var data_url = source.data('href');
+                }
+                else if (source.attr("href")) {
+                    var data_url = source.attr('href');
+                }
+                else {
+                    var data_url = null;
+                }
+
+                if (data_url) {
+                    event.preventDefault();
+                    $.ajax({
+                        url: data_url,
+                        success: function (data) {
+                            var modal = $("#modalData").modal();
+                            modal.find('.modal-body').html(data);
+
+                            if (source.attr("data-title")) {
+                                modal.find('.modal-title').html(source.data('title'));
+                            }
+                            else {
+                                modal.find('.modal-title').html('Related data');
+                            }
+                        }
+                    });
+                }
+            });
+
+            $('body').on('click', '.modal :submit', function(event) {
+                var source = $(this);
+                if (source.attr("form")) {
+                    event.preventDefault();
+
+                    var form_id = source.attr('form');
+                    var form = $('#'+form_id);
+
+                    $.post({
+                        url: form.attr('action'),
+                        data: form.serialize(),
+                        success: function (data) {
+                            var modal = $("#modalData").modal();
+                            modal.find('.modal-body').html(data);
+                        }
+                    });
+                }
+            });
+        </script>
+    
+    
+        
+    <script src="https://www.sshade.eu/static/sshade/sidebar.js"></script>
+
+    
+</body>
+
+</html>

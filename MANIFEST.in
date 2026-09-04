@@ -1,0 +1,15 @@
+include README.md
+include TO-DO.md
+include project.toml
+
+# Include all Python files
+recursive-include src *.py
+
+# Include all Jupyter notebooks
+recursive-include notebooks *.ipynb
+
+# Include all resources
+recursive-include resources *
+
+# Include all scripts
+recursive-include scripts *

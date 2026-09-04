@@ -1,0 +1,716 @@
+{
+  "formula_anonymous": "ABC2",
+  "ordering": "FM",
+  "builder_meta": {
+    "emmet_version": "0.87.0rc10",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "d47a5163-9b2d-4bd7-a183-2859445585fa",
+    "batch_id": "vasp6-statics",
+    "database_version": "2026.04.13",
+    "build_date": "2026-06-05 01:28:45.906000+00:00",
+    "license": "BY-C"
+  },
+  "total_magnetization": 6.0792975,
+  "n": null,
+  "task_ids": [
+    "aaafydcq",
+    "aaafuleo",
+    "aaafuldv",
+    "aaabzrbc",
+    "aaaexdqq",
+    "aaacanrx",
+    "aaafxnka",
+    "aaafzczx",
+    "aaacamns",
+    "aaaddxsz",
+    "aaadximq",
+    "aaafxnmb",
+    "aaaeuqgn",
+    "aaadmmvy",
+    "aaafulaz",
+    "aaafzdat",
+    "aaafukwb",
+    "aaaexduk",
+    "aaaaafen",
+    "aaafysad",
+    "aaafyden",
+    "aaafydeg",
+    "aaadsbkj",
+    "aaaclnij",
+    "aaafydec",
+    "aaafdglj"
+  ],
+  "e_ionic": null,
+  "num_unique_magnetic_sites": 1,
+  "density_atomic": 17.71409585390637,
+  "band_gap": 0.0,
+  "e_electronic": null,
+  "deprecated": false,
+  "surface_anisotropy": null,
+  "universal_anisotropy": 0.6890000000000001,
+  "energy_above_hull": 0.12116905375000009,
+  "formula_pretty": "FeCuS2",
+  "property_name": "summary",
+  "weighted_surface_energy": null,
+  "possible_species": [
+    "Fe3+",
+    "S2-",
+    "Cu+"
+  ],
+  "efermi": 4.33292801,
+  "volume": 141.71276683125097,
+  "composition": {
+    "Fe": 2.0,
+    "Cu": 2.0,
+    "S": 4.0
+  },
+  "homogeneous_poisson": 0.332,
+  "equilibrium_reaction_energy_per_atom": null,
+  "last_updated": "2023-10-08 12:02:16.517000+00:00",
+  "energy_per_atom": -5.7254445,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          -2.631813,
+          2.631813,
+          5.114921
+        ],
+        [
+          2.631813,
+          -2.631813,
+          5.114921
+        ],
+        [
+          2.631813,
+          2.631813,
+          -5.114921
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 6.3257644731825895,
+      "b": 6.3257644731825895,
+      "c": 6.3257644731825895,
+      "alpha": 130.82950969293634,
+      "beta": 130.82950969293634,
+      "gamma": 72.08409267474902,
+      "volume": 141.71276683125097
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Fe",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.75,
+          0.25,
+          0.5
+        ],
+        "properties": {
+          "magmom": 2.627
+        },
+        "label": "Fe",
+        "xyz": [
+          0.0,
+          2.631813,
+          2.5574605
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Fe",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "properties": {
+          "magmom": 2.627
+        },
+        "label": "Fe",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cu",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.0
+        ],
+        "properties": {
+          "magmom": 0.039
+        },
+        "label": "Cu",
+        "xyz": [
+          0.0,
+          0.0,
+          5.114921
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cu",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.25,
+          0.75,
+          0.5
+        ],
+        "properties": {
+          "magmom": 0.039
+        },
+        "label": "Cu",
+        "xyz": [
+          2.631813,
+          0.0,
+          2.5574605
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.633055,
+          0.625,
+          0.508055
+        ],
+        "properties": {
+          "magmom": 0.045
+        },
+        "label": "S",
+        "xyz": [
+          1.3159065,
+          1.3583050074300005,
+          3.83619075
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.375,
+          0.883055,
+          0.008055
+        ],
+        "properties": {
+          "magmom": 0.045
+        },
+        "label": "S",
+        "xyz": [
+          1.3583050074300003,
+          -1.3159065,
+          6.3936512500000005
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.116945,
+          0.125,
+          0.491945
+        ],
+        "properties": {
+          "magmom": 0.045
+        },
+        "label": "S",
+        "xyz": [
+          1.3159065,
+          1.2735079925700001,
+          -1.2787302500000002
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.875,
+          0.366945,
+          0.991945
+        ],
+        "properties": {
+          "magmom": 0.045
+        },
+        "label": "S",
+        "xyz": [
+          1.2735079925700001,
+          3.9477195,
+          1.2787302500000004
+        ]
+      }
+    ]
+  },
+  "is_stable": false,
+  "is_magnetic": true,
+  "dos_energy_up": 0.0,
+  "decomposes_to": [
+    {
+      "material_id": "mp-aaaaacgo",
+      "formula": "Fe2 S4",
+      "amount": 0.75
+    },
+    {
+      "material_id": "mp-aaaaaabe",
+      "formula": "Cu1",
+      "amount": 0.25
+    }
+  ],
+  "uncorrected_energy_per_atom": -5.4739445,
+  "elements": [
+    "Cu",
+    "Fe",
+    "S"
+  ],
+  "database_IDs": {
+    "icsd": [
+      "icsd-80094",
+      "icsd-627337",
+      "icsd-30289",
+      "icsd-261882",
+      "icsd-2518",
+      "icsd-80095",
+      "icsd-261883",
+      "icsd-94554",
+      "icsd-627340",
+      "icsd-60166"
+    ]
+  },
+  "xas": [
+    {
+      "edge": "K",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Cu",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "S",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "L2,3",
+      "absorbing_element": "Cu",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "L2,3",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Cu",
+      "spectrum_type": "XAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "S",
+      "spectrum_type": "XAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Fe",
+      "spectrum_type": "EXAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "S",
+      "spectrum_type": "EXAFS"
+    },
+    {
+      "edge": "K",
+      "absorbing_element": "Cu",
+      "spectrum_type": "EXAFS"
+    },
+    {
+      "edge": "L3",
+      "absorbing_element": "Cu",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "L3",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "L2",
+      "absorbing_element": "Fe",
+      "spectrum_type": "XANES"
+    },
+    {
+      "edge": "L2",
+      "absorbing_element": "Cu",
+      "spectrum_type": "XANES"
+    }
+  ],
+  "density": 4.300865719884655,
+  "e_ij_max": null,
+  "bulk_modulus": {
+    "voigt": 50.613,
+    "reuss": 50.328,
+    "vrh": 50.47
+  },
+  "composition_reduced": {
+    "Fe": 1.0,
+    "Cu": 1.0,
+    "S": 2.0
+  },
+  "theoretical": false,
+  "total_magnetization_normalized_vol": 0.042898728434532074,
+  "dos_energy_down": null,
+  "weighted_surface_energy_EV_PER_ANG2": null,
+  "chemsys": "Cu-Fe-S",
+  "bandstructure": {
+    "setyawan_curtarolo": {
+      "band_gap": 0.0,
+      "cbm": null,
+      "vbm": null,
+      "efermi": 4.43645935,
+      "is_gap_direct": false,
+      "is_metal": true,
+      "magnetic_ordering": "NM",
+      "task_id": "aaadmmvy",
+      "nbands": 96.0,
+      "direct_gap": 0.0
+    },
+    "hinuma": {
+      "band_gap": 0.0,
+      "cbm": null,
+      "vbm": null,
+      "efermi": 4.37013427,
+      "is_gap_direct": false,
+      "is_metal": true,
+      "magnetic_ordering": "NM",
+      "task_id": "aaaeuqgn",
+      "nbands": 96.0,
+      "direct_gap": 0.0
+    },
+    "latimer_munro": {
+      "band_gap": 0.0,
+      "cbm": null,
+      "vbm": null,
+      "efermi": 4.33292801,
+      "is_gap_direct": false,
+      "is_metal": true,
+      "magnetic_ordering": "NM",
+      "task_id": "aaafdglj",
+      "nbands": 96.0,
+      "direct_gap": 0.0
+    }
+  },
+  "vbm": null,
+  "nelements": 3,
+  "has_props": {
+    "materials": true,
+    "thermo": true,
+    "xas": true,
+    "grain_boundaries": false,
+    "electronic_structure": true,
+    "bandstructure": true,
+    "dos": true,
+    "magnetism": true,
+    "elasticity": true,
+    "dielectric": false,
+    "piezoelectric": false,
+    "surface_properties": false,
+    "oxi_states": true,
+    "provenance": true,
+    "charge_density": true,
+    "eos": false,
+    "phonon": false,
+    "absorption": false,
+    "insertion_electrodes": true,
+    "substrates": true,
+    "chemenv": true
+  },
+  "symmetry": {
+    "crystal_system": "Tetragonal",
+    "symbol": "I-42d",
+    "hall": "I -4 2bw",
+    "number": 122,
+    "point_group": "-42m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-aaaaafen",
+  "weighted_work_function": null,
+  "warnings": [],
+  "dos": {
+    "task_id": "aaadsbkj",
+    "total": {
+      "1": {
+        "band_gap": 0.0,
+        "cbm": 4.42153944,
+        "vbm": 4.42153944,
+        "efermi": 4.42153944,
+        "spin_polarization": null
+      }
+    },
+    "elemental": {
+      "Fe": {
+        "total": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "s": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "p": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "d": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        }
+      },
+      "Cu": {
+        "total": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "s": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "p": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "d": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        }
+      },
+      "S": {
+        "total": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "s": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "p": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        },
+        "d": {
+          "1": {
+            "band_gap": 0.0,
+            "cbm": 4.42153944,
+            "vbm": 4.42153944,
+            "efermi": 4.42153944,
+            "spin_polarization": null
+          }
+        }
+      }
+    },
+    "orbital": {
+      "s": {
+        "1": {
+          "band_gap": 0.0,
+          "cbm": 4.42153944,
+          "vbm": 4.42153944,
+          "efermi": 4.42153944,
+          "spin_polarization": null
+        }
+      },
+      "p": {
+        "1": {
+          "band_gap": 0.0,
+          "cbm": 4.42153944,
+          "vbm": 4.42153944,
+          "efermi": 4.42153944,
+          "spin_polarization": null
+        }
+      },
+      "d": {
+        "1": {
+          "band_gap": 0.0,
+          "cbm": 4.42153944,
+          "vbm": 4.42153944,
+          "efermi": 4.42153944,
+          "spin_polarization": null
+        }
+      }
+    },
+    "magnetic_ordering": "NM"
+  },
+  "deprecation_reasons": null,
+  "formation_energy_per_atom": -0.51443867375,
+  "num_magnetic_sites": 2,
+  "is_metal": true,
+  "types_of_magnetic_species": [
+    "Fe"
+  ],
+  "shape_factor": null,
+  "cbm": null,
+  "phonon_IDs": null,
+  "e_total": null,
+  "origins": [
+    {
+      "name": "structure",
+      "task_id": "aaadximq",
+      "last_updated": "2020-11-11 07:45:58.789000+00:00"
+    },
+    {
+      "name": "setyawan_curtarolo",
+      "task_id": "aaadmmvy",
+      "last_updated": "2021-02-20 23:39:35.330000+00:00"
+    },
+    {
+      "name": "hinuma",
+      "task_id": "aaaeuqgn",
+      "last_updated": "2021-07-23 20:44:00.438000+00:00"
+    },
+    {
+      "name": "latimer_munro",
+      "task_id": "aaafdglj",
+      "last_updated": "2022-06-10 05:17:59.820000+00:00"
+    },
+    {
+      "name": "dos",
+      "task_id": "aaadsbkj",
+      "last_updated": "2020-07-15 23:22:44.348000+00:00"
+    },
+    {
+      "name": "electronic_structure",
+      "task_id": "aaafdglj",
+      "last_updated": "2022-06-10 05:17:59.820000+00:00"
+    },
+    {
+      "name": "magnetism",
+      "task_id": "aaadximq",
+      "last_updated": "2020-11-11 07:45:58.789000+00:00"
+    },
+    {
+      "name": "energy",
+      "task_id": "aaadximq",
+      "last_updated": "2026-05-30 05:31:13.407000+00:00"
+    }
+  ],
+  "has_reconstructed": null,
+  "grain_boundaries": null,
+  "shear_modulus": {
+    "voigt": 20.372,
+    "reuss": 17.921,
+    "vrh": 19.147
+  },
+  "nsites": 8,
+  "total_magnetization_normalized_formula_units": 3.03964875,
+  "is_gap_direct": false,
+  "fields_not_requested": [
+    "prop_origins"
+  ],
+  "unavailable_fields": []
+}
